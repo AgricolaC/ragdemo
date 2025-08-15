@@ -1,0 +1,4 @@
+app_name: "loonar-demo"
+storage_dir: "data/uploads"
+allowed_extensions: ["pdf", "txt", "doc", "docx"]   # UPDATED
+max_upload_size_mb: 10
