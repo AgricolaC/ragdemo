@@ -1,4 +1,8 @@
+# Example configuration for Loonar demo
 app_name: "loonar-demo"
+# Directory where uploaded files will be persisted (created if missing)
 storage_dir: "data/uploads"
-allowed_extensions: ["pdf", "txt", "doc", "docx"]   # UPDATED
+# Allowed extensions for /upload endpoint
+allowed_extensions: ["pdf", "txt", "doc", "docx"]   
+# Maximum file size in megabytes (enforced by API handler)
 max_upload_size_mb: 10
